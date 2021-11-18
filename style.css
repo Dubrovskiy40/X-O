@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -11,10 +12,10 @@ body {
 .main {
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: initial;
     background-attachment: fixed;
-    background-size: contain;
     height: 100vh;
+    padding-bottom: 30px;
 }
 
 .gamer {
@@ -29,8 +30,9 @@ body {
 .board {
     margin: 20px auto;
     border: 1px solid black;
-    width: 500px;
-    height: 500px;
+    width: 60%;
+    height: 60%;
+
 }
 
 .cell {
